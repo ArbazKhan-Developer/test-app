@@ -10,7 +10,7 @@ app.get('/home',(req,res)=>{
     res.send('welcome to home page.')
 })
 
-app.get('test',(req,res)=>{
+app.get('/test',(req,res)=>{
     res.send('hello Arbaz')
 })
 
