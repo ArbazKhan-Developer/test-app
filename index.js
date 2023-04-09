@@ -3,7 +3,7 @@ const app = express()
 const PORT = 80
 
 app.get('/', (req,res)=>{
-    res.send('Hello there, welcome to the first instance')
+    res.send('Hello there, welcome to the second instance')
 })
 
 app.get('/home',(req,res)=>{
