@@ -1,9 +1,9 @@
 const express = require('express');
 const app = express()
-const PORT = 3000
+const PORT = 80
 
 app.get('/', (req,res)=>{
-    res.send('Hello there, welcome to the EC2 instance')
+    res.send('Hello there, welcome to the EC2 instance running on port 80')
 })
 
 app.get('/home',(req,res)=>{
